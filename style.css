@@ -1,0 +1,292 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+/* global tags */
+h1{
+  font-size: 8.5rem;
+  font-weight: 700;
+  color: rgb(35,55,85);
+
+}
+
+span{
+  font-size:  .9rem;
+  color: #757373;
+}
+
+h6{
+  font-size:  1.1rem;
+  color: rgb(24,24,49);
+
+}
+/* navigation */
+nav{
+  position: fixed;
+  width: 100%;
+  background-color: white;
+display: flex; 
+flex-direction: row;
+justify-content: space-between;
+padding: 1vw 8vw;
+align-items: center;
+box-shadow: 2px 2px 10px rgb(0,0,0,0.15);
+}
+
+nav img{
+  width: 150px;
+  cursor: pointer;
+
+}
+
+nav .navigation ul{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+
+nav .navigation ul li{
+  list-style: none;
+  margin-left: 30px;
+
+}
+
+nav .navigation ul li a{
+text-decoration: none;
+color: rgb(66, 66, 135);
+font-size: 16px;
+font-weight: 500;
+transition: 0.3s ease;
+
+}
+
+nav .navigation ul li a:hover{
+  color: #fdc93b;
+
+}
+
+/* home */
+#home{
+  background-image: url("images/pen.jpg") ;
+  background-image: linear-gradient((rgb9,5,54,0.3),rgb(5,4,46,0.7));
+  width: 100%;
+  padding-top: 40px;
+  height: 100vh;
+  background-size: cover;
+  background-position:center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#home h2{
+  color: rgb(24,24,49);
+  font-size: 4rem;
+  letter-spacing: 1px;
+}
+
+#home p{
+  width: 100%;
+  margin-top: 20px;
+  color: #fff;
+  font-size: 1.2rem;
+  line-height: 25px;
+  
+}
+#home a{
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 13px 35px;
+  background-color: #ffff;
+  font-weight:600;
+  border-radius: 5px;
+}
+
+#home .btn{
+  margin-top: 160px;
+}
+
+#home a.blue{
+  color: #ffff;
+  background: rgb(21,21,100);
+  transition: 0.3s ease;
+}
+
+#home a.blue:hover{
+  color: rgb(21,21,100);
+  background: #fff;
+}
+
+/* search button */
+
+.box{
+  max-width: 400px;
+  width: 100%; 
+}
+
+.box .search-box{
+  height: 40px;
+  max-width: 380px;
+  margin: auto;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.25);
+  border-radius: 25px;
+
+}
+
+.search-box input{
+  position: absolute;
+  height: 30%;
+  width: 30%;
+  border-radius: 26px;
+  padding-left: 20px;
+  font-size: 18px;
+}
+
+.search-box .icon{
+  position: absolute;
+  right: 9%;
+  top: 33%;
+  width: 50px;
+  text-align: center;
+  line-height: 45px; 
+  border-radius: 0 25px 25px 0;
+  height: 31%;
+}
+
+/* connect */
+#connect{
+  background-image: url("images/contact.jpg") ;
+  background-size: 40%;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 40px;
+  height: 100vh;
+  /* background-size: cover; */
+  background-position: -14% 100%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#connect h2{
+  color: rgb(24,24,49);
+  font-size: 3rem;
+  letter-spacing: 1px;
+}
+
+#connect .btn{
+  margin-top: 28px;
+}
+
+#connect a{
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 13px 35px;
+  background-color: #ffff;
+  font-weight:600;
+  border-radius: 5px;
+}
+
+#connect a.blue{
+  color: #ffff;
+  background: rgb(21,21,100);
+  transition: 0.3s ease;
+}
+
+#connect a.blue:hover{
+  color: rgb(21,21,100);
+  background: #fff;
+}
+
+/* Home*/
+/* #Home{
+  background-image: url("images/simple.jpg") ;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 4%;
+  /* padding-left: 10px; */
+  /* padding-right: 69%;
+  padding-bottom: 23%; */
+  /* height: 100vh; */
+  /* background-position: 50% 46%;
+  flex-direction: column; */
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center;
+  text-align: center;
+} */ 
+
+/* #Home h2{
+  color: rgb(94, 5, 64);
+  font-size: 3rem;
+  letter-spacing: 1px;
+} */
+
+/* about */
+
+.about{
+  width: 100%;
+  padding: 78px 0px;
+  background-color:#191919 ;
+}
+
+.about img{
+  height: auto;
+  width: 400px;
+  margin-left: 0%;
+}
+
+.about-text{
+  width: 550px;
+}
+
+.main{
+  width: 1130%;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about-text h2{
+  color: white;
+  font-size: 80px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  margin-top: 32%
+}
+
+.about-text h5{
+  color: white;
+  font-size: 25px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+}
+
+span{
+  color: #f9004d;
+}
+
+.about-text p{
+  color: #fcfc;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+
+
